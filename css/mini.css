@@ -51,7 +51,10 @@ a {
 .main-page-header {
     position: relative;
     min-height: 564px;
-    background: url(../img/Welcome.png) no-repeat top 132px left 50%,url(../img/white.png) no-repeat bottom 0 left 50%,url(../img/background-photo.jpg) no-repeat top calc(28% + 56px) left 50%;
+    background:
+    url("../img/welcome.png") no-repeat top 132px left 50%,
+    url("../img/white.png") no-repeat bottom 0 left 50%,
+    url("../img/background-photo.jpg") no-repeat top calc(28% + 56px) left 50%;
     background-size: 458px 352px,100% 57px,cover
 }
 
