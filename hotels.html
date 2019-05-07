@@ -33,7 +33,7 @@
     </header>
     <main>
       <section class="filter">
-        <h2 class="visually-hidden">Подбор отеля по параметрам</h2>
+        <h1 class="visually-hidden">Поиск отеля по параметрам</h1>
         <form class="hotels-filter-form" action="index.html" method="post">
           <fieldset class="filter-column infrastructure">
             <legend>инфраструктура:</legend>
@@ -83,6 +83,10 @@
             </div>
             <div class="pseudo-range">
               <div class="pseudo-range-fill">
+                <div class="range-button range-button-left">
+                </div>
+                <div class="range-button range-button-right">
+                </div>
               </div>
             </div>
             <button type="submit" name="send form">показать</button>
@@ -94,10 +98,9 @@
       </section>
       <section class="results">
         <h2 class="visually-hidden">Результаты поиска</h2>
-        <nav class="result-navigation">
+        <nav class="result-sorting">
 
-          <p class="amount-result">Найдено: 3</p>
-          <div class="sorting">
+            <p class="amount-result">Найдено: 3</p>
             <p>сортировка:</p>
             <ul class="sorting-type-list">
               <li class="sorting-type-item sorting-type-current">по цене</li>
@@ -117,9 +120,84 @@
               </li>
 
             </ul>
-          </div>
+
 
         </nav>
+        <ul class="hotels-cards-list">
+          <li class="hotel-card">
+            <img src="img/hotel1.jpg" alt="Amara Resort & Spa">
+            <div class="hotel-info">
+              <h2 class="hotel-name">Amara Resort & Spa</h2>
+              <p>
+                <span class="hotel-type">Гостиница</span>
+                <span class="hotel-price">ОТ 4000 Р.</span>
+              </p>
+              <div class="hotel-card-buttons">
+                <a href="#" class="button more-info-button">Подробнее</a>
+                <a href="#" class="button reserve-button">Забронировать</a>
+              </div>
+            </div>
+            <div class="class-raiting">
+              <ul class="class-stars">
+                <li class="star"></li>
+                <li class="star"></li>
+                <li class="star"></li>
+                <li class="star"></li>
+              </ul>
+              <div class="rating-number">
+                Рейтинг: 8,5
+              </div>
+            </div>
+          </li>
+          <li class="hotel-card">
+            <img src="img/hotel2.jpg" alt="Desert Quail Inn">
+            <div class="hotel-info">
+              <h2 class="hotel-name">Desert Quail Inn</h2>
+              <p>
+                <span class="hotel-type">Мотель</span>
+                <span class="hotel-price">ОТ 3000 Р.</span>
+              </p>
+              <div class="hotel-card-buttons">
+                <a href="#" class="button more-info-button">Подробнее</a>
+                <a href="#" class="button reserve-button">Забронировать</a>
+              </div>
+            </div>
+            <div class="class-raiting">
+              <ul class="class-stars">
+                <li class="star"></li>
+                <li class="star"></li>
+                <li class="star"></li>
+              </ul>
+              <div class="rating-number">
+                Рейтинг: 8,9
+              </div>
+            </div>
+          </li>
+          <li class="hotel-card">
+            <img src="img/hotel3.jpg" alt="Villas at Poco Diablo">
+            <div class="hotel-info">
+              <h2 class="hotel-name">Villas at Poco Diablo</h2>
+              <p>
+                <span class="hotel-type">Апартаменты</span>
+                <span class="hotel-price">ОТ 2000 Р.</span>
+              </p>
+              <div class="hotel-card-buttons">
+                <a href="#" class="button more-info-button">Подробнее</a>
+                <a href="#" class="button reserve-button">Забронировать</a>
+              </div>
+            </div>
+            <div class="class-raiting">
+              <ul class="class-stars">
+                <li class="star"></li>
+                <li class="star"></li>
+
+              </ul>
+              <div class="rating-number">
+                Рейтинг: 9,2
+              </div>
+            </div>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="page-footer">
