@@ -1,2 +1,3 @@
 # Sedona
-Седона резиновая 768 -1200px
+Учебный проект по верстке. 
+Просмотр https://basketson.github.io/Sedona/
